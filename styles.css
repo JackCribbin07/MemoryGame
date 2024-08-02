@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    font-size: 500%;
+    
+    text-align: center;
+}
+#PlayMenu{
+    background-color: #DDDDDD;
+    border:5px solid black;
+    width: 50%;
+    height:auto;
+    text-align:center;
+    align-content: center;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+#start{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #009c7f;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #000000;
+    margin-top: 7.5%;
+    margin-bottom:auto;
+    transform: translateY(-65%);
+}
+#start:hover {
+    background-color: #00614f;
+}
+#start:active {
+    background-color: #00614f;
+    box-shadow: 0 5px #000000;
+    transform: translateY(-60%);
+  }

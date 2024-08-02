@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> </link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Memory Game </title>
+</head>
+<body>
+
+    
+    <h1> Memory Game </h1>
+    
+    <p>Click the colors in the order they flash:</p>
+    <div id="result">Click Play</div>
+    <button type="button" onclick="startGame()" id="buttonStart"> Play </button>
+    <br>
+    <button type="button" onclick="setSpeedSlow()" id="ButtonEasy"> Slow </button>
+    <button type="button" onclick="setSpeedMed()" id="ButtonMedium"> Medium </button>
+    <button type="button" onclick="setSpeedFast()" id="ButtonHard"> Fast </button>
+    
+    
+
+    <div id="bestScore"> </div>
+
+    <button type="button" onclick="checkRed()" id="buttonRed"></button>
+    <button type="button" onclick="checkBlue()" id = "buttonBlue"></button>
+    <button type="button" onclick="checkGreen()" id = "buttonGreen"></button>
+    <button type="button" onclick="checkYellow()" id = "buttonYellow"></button>
+    
+    
+    
+    <div id="Shop">SHOP <div id="shoPoints"> </div>
+    
+    <div id="Item1">Rewind|Cost: 20|<button type="button" onclick="Rewind()" id = "RewindButton">Purchase</button>| Allows user to replay the level</div>
+    
+    <div id="Item2">Score Booster|Cost: 35|<button type="button" onclick="ScoreBoost()" id = "ScoreBoostButton">Purchase</button>| Boosts current score by 2</div>
+    
+    <div id="Item3">Color Scheme 1|Cost: Free|<button type="button" onclick="Color1()" id = "Color1Button">Equiped</button>| Changes color scheme</div>
+    
+    <div id="Item4">Color Scheme 2|Cost: 10|<button type="button" onclick="Color2()" id = "Color2Button">Purchase</button>| Changes color scheme</div>
+    
+    <div id="Item5">Color Scheme 3|Cost: 15|<button type="button" onclick="Color3()" id = "Color3Button">Purchase</button>| Changes color scheme</div>
+    
+    
+    <script src = "script.js"></script>    
+</body>
+
+</html>
